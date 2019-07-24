@@ -1,0 +1,37 @@
+#parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#unique1 {
+    border: red solid 1px;
+    width: 50%;
+}
+
+#unique2 {
+    border: blue solid 1px;
+    width: 50%;
+}
+
+#container {
+    display: flex;
+    min-height: 1500px;
+  }
+  
+#audrey {
+    background-color: purple;
+    color: snow;
+    min-height: 100px;
+    width: 50px;
+    position: fixed;
+}
+
+.disabled {
+    background-color: gray;
+}
+
+.enabled {
+    background-color: fuchsia;
+    color: goldenrod;
+}
